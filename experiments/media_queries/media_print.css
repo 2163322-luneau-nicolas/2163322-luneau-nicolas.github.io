@@ -1,0 +1,13 @@
+@media print {
+    #lien{
+        display: none;
+    }
+
+    .pageGauche{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}

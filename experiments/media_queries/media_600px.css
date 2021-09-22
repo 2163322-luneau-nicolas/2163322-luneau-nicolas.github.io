@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    #lien {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page{
+        display: block;
+    }  
+}

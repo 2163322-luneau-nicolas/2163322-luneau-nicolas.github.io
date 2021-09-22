@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-content:space-between;
+      
+}
+
+#entete_text {
+    display :flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    display: flex;
+    background-color: wheat;
+}
+
+.quote {
+    background-color: chartreuse;
+    align-self: flex-end;
+    font-size: 1.3em;
+    
+}

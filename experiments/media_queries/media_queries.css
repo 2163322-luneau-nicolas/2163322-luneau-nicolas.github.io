@@ -1,0 +1,67 @@
+html, body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#debutpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+    background-color: blue;
+    max-height: 200px;   
+}
+
+#lien {
+    display: flex;
+    flex-direction: row; 
+    background-color:  black;
+}
+
+#lien > a {
+    text-decoration: none;
+    color: white; 
+    padding: 10px;
+}
+
+a:hover {
+    background-color: rgba(245, 245, 245, 0.445);
+}
+
+#page {
+    display: flex;
+}
+
+.pageGauche {
+    padding: 20px;
+    flex-basis: 20%;
+    background-color: rgba(228, 231, 231, 0.932);
+  
+}
+
+.pageDroite {
+    flex-basis: 80%;
+    padding: 20px;
+}
+
+.image1 {
+    background-color: grey; 
+    height: 150px;
+}
+
+.image2, .image3 {
+    background-color: grey; 
+    height: 150px;
+    width: auto;
+}
+
+footer {
+    background-color: rgb(206, 203, 203);
+    height: 50px;
+}
+
+
+
+
+
+    
